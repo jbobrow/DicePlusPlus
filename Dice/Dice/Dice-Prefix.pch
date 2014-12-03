@@ -1,0 +1,21 @@
+//
+//  Dice-Prefix.pch
+//  Dice
+//
+//  Created by Jonathan Bobrow on 11/29/14.
+//  Copyright (c) 2014 Jonathan Bobrow. All rights reserved.
+//
+
+#ifndef Dice_Dice_Prefix_pch
+#define Dice_Dice_Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+    #warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
